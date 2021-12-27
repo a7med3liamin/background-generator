@@ -1,0 +1,67 @@
+h1 {
+    color: hotpink;
+    background-color: antiquewhite;
+}
+input{
+    color:blueviolet;
+    border-color: chocolate;
+}
+body {
+    border-color: hotpink;
+    background-color: rgba(52, 68, 64, 0.836);
+}
+p{
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+span{
+    color:brown;
+}
+ul{
+    background-color: wheat;
+    margin:0;
+    padding:0;
+}
+
+a{
+    /* color:brown; */
+    text-decoration: none;
+}
+li{
+    color:teal;
+    list-style: none;
+    display:inline;
+}
+li:hover{
+    color: blue;
+    list-style:armenian;
+    display: inline-block;
+}
+form {
+    border-width:1;
+    border:5px solid thick;
+    border-color: lightpink;
+    border-color: blue;
+    background-color:lightgrey;
+    line-height: 25px;
+    /* text-align: center; */
+}
+.borders{
+    background-color: greenyellow;
+}
+/*
+.class
+#id
+*id
+:hover
+:last-child
+:first-child
+!important
+element1 element2 //all element2 inside element1.
+element1>element2 //all element2 whose parent is element1.
+element1+element2 //first element2 that is immediately 
+                  //after element1.
+element1~element2 //like above but not only first.                  
+
+*/
